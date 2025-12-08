@@ -1,3 +1,3 @@
 My name is Anil Prasad.
 
-Revising C++ by practicing lessons from learncpp.com
+Revising C++ by practicing lessons from learncpp.com.
