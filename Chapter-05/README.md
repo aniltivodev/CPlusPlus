@@ -42,3 +42,39 @@ We learned:
     d. Example of constant and non-constant expressions
     e. When constant expressions are evaluated at compile time
     f. why compile-time expressions must be constant.
+  6. constexpr variables
+    a. Compile time const challenges
+    b. The constexpr keyword
+    c. The meaning of const v/s constexpr for variables
+    d. cons and constexpr function parameters
+    e. A brief introduction to constexpr function
+  7. Introduction to std::string
+    a. std::string can handle string of different lengths
+    b. String inputs with std::cin
+    c. Use std::getline() to input text
+    d. what is std::ws?
+    e. The length of a std::string
+    f. Initialize a std::string is expensive
+    g. Do not pass std::string as value
+    h. Returning a std::string
+    i. Literals for std::string
+    j. constexpr strings
+  8. Introduction to std::string_view
+    a. std::string_view parameters will accept many different types of string arguments
+    b. std::string_view will not implicitly convert to std::string
+    c. Literals for std::string_view
+    d. constexpr std::string_view
+  9. std::string_view (part 2)
+    a. An introduction to owners and viewers
+    b. std::string is a (sole) owner
+    c. We don't always need a copy
+    d. std::string_view is a viewer
+    e. std:string_view is best used as a read-only function parameter
+    f. should I prefer std::string_viw or const std::string& function parameter?
+    g. Improperly using std::string_view
+    h. Revalidating an invalid std::string_view
+    i. Be careful returning std::string_view
+    j. Be careful returning std::string_view
+    k. View modification functions
+    l. std::string_view can view a substring
+    m. std::string_view may or may not be null terminated
